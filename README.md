@@ -1,5 +1,5 @@
-Library Management
-### This is program is a managing program for library to manage books, members, borrowing, and displaying information regarding available books in the library and borrowed books for a specific member.
+# Library Management
+### _This is program is a managing program for library to manage books, members, borrowing, and displaying information regarding available books in the library and borrowed books for a specific member._
 
 * # Files Structure:
     * ### │
@@ -26,7 +26,7 @@ Library Management
     * ### return_book(self, book_id): When called will remove book_id to the borrowed book list.
 
 * ## Class Library:
-    * ## Note: Most methods in this class notified the user what has been processed after running the methods.
+* ## _Note: Most methods in this class notified the user what has been processed after running the methods._
     * ### __init__(self): store three variables, self.books: for recording books, self.members: for recording members, and self.borrowed_books: list a log of each members borrowed books.
     * ### add_book(self, book_id, title, author, available_copies): For creating new Book object and store it in self.books.
     * ### add_member(self, member_id, name, email): For creating new Member object then store it in self.members.
